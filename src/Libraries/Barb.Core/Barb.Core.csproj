@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Domain\" />
+    <None Remove="Configuration\" />
+    <None Remove="Domain\Catalog\" />
+    <None Remove="Domain\Localization\" />
+    <None Remove="Domain\Seo\" />
+    <None Remove="Domain\Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Domain\Catalog\" />
+    <Folder Include="Domain\Localization\" />
+    <Folder Include="Domain\Seo\" />
+    <Folder Include="Domain\Common\" />
+  </ItemGroup>
+</Project>
