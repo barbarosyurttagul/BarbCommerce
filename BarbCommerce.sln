@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barb.Core", "src\Libraries\Barb.Core\Barb.Core.csproj", "{EE65A4F2-DDB3-4FBD-86E2-A57E1EBF38A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barb.Data", "src\Libraries\Barb.Data\Barb.Data.csproj", "{59EA7F4A-64FA-42D0-A734-6E490FD840CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{EE65A4F2-DDB3-4FBD-86E2-A57E1EBF38A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE65A4F2-DDB3-4FBD-86E2-A57E1EBF38A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE65A4F2-DDB3-4FBD-86E2-A57E1EBF38A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EA7F4A-64FA-42D0-A734-6E490FD840CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EA7F4A-64FA-42D0-A734-6E490FD840CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EA7F4A-64FA-42D0-A734-6E490FD840CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EA7F4A-64FA-42D0-A734-6E490FD840CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +35,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D9B3EA82-BA2B-40DF-96CB-B8F463FB0F87} = {D5A3B940-1EDE-460E-9A8B-516A6579E057}
 		{EE65A4F2-DDB3-4FBD-86E2-A57E1EBF38A6} = {D9B3EA82-BA2B-40DF-96CB-B8F463FB0F87}
+		{59EA7F4A-64FA-42D0-A734-6E490FD840CD} = {D9B3EA82-BA2B-40DF-96CB-B8F463FB0F87}
 	EndGlobalSection
 EndGlobal
