@@ -7,7 +7,7 @@ namespace Barb.Core.Domain.Catalog
     /// <summary>
     /// Represents a product
     /// </summary>
-    public class Product : BaseEntity, ILocalizedEntity, ISlugSupported
+    public partial class Product : BaseEntity, ILocalizedEntity, ISlugSupported
 	{
         
         /// <summary>
